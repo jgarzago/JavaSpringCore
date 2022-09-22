@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author jgarz
- *
- */
-module IOC {
-}
