@@ -11,6 +11,7 @@ public class Empleados {
 		IEmpleado secretario = ctx.getBean("Director", IEmpleado.class);
 
 		System.out.println(secretario.getTareas());
+		System.out.println(Director.getInforme());
 		
 		ctx.close();
 	}
