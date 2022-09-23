@@ -14,7 +14,6 @@ public class Director implements IEmpleado {
 		return "Mi tarea principal es superviar la empresa";
 	}
 
-	@Override
 	public String getInforme() {
 		// TODO Auto-generated method stub
 		return this.InformeNuevo.getInforme();

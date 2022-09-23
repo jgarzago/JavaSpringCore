@@ -9,9 +9,10 @@ public class Empleados {
 		
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("application.context.xml");
 		IEmpleado secretario = ctx.getBean("Director", IEmpleado.class);
+		IEmpleado director = ctx.getBean("Director", IEmpleado.class);
 
-		System.out.println(secretario.getTareas());
-		System.out.println(Director.getInforme());
+		System.out.println("secretario>>>>" + secretario.getTareas());
+		System.out.println("secretario>>>>" + director.getInforme());
 		
 		ctx.close();
 	}
